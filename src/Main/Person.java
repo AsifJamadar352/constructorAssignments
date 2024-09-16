@@ -10,31 +10,30 @@ public class Person {
 
         }
 
+
+        public Person(String name)
     {
-        public Person(String name) {
         this.name = name;
     }
-    public Person(String name, int age)
-        {
-            this.name = name;
-            this.age = age;
+
         }
         public String getName ()
         {
             return this.name;
         }
 
-        public String getAge () {
+        public int getAge ()
+        {
         return this.age;
     }
-        public String getgender () {
-        return this gender;
+        public String getGender () {
+        return this.gender;
 
     }
-        public void setage ( int age){
+        public void setAge ( int age){
         this.age = age;
     }
 
     }
-}
+
 
